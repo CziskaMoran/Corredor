@@ -22,7 +22,7 @@ public class Corredor {
     
     public void energiaCero(){
         if(energia ==0){
-            System.out.println("Tu energia esta en cero, tomo 220V papa.");
+            System.out.println("Tu energia esta en cero");
         }
     }
     

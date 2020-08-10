@@ -18,7 +18,7 @@ public class Main {
        do{
            System.out.println("\nDigite la cantidad de veces que el competidor correra: ");
            correr = in.nextInt();
-            //correr = 6;
+            
        
             System.out.println("\nEl competidor comenzara a correr...");
             
@@ -43,8 +43,8 @@ public class Main {
             }
            
             else{
-                System.out.println("\nRecargando energia...");
-                System.out.println("Indique cuantas veces quiere que el competidor entrene: "); recarga = in.nextInt();
+                System.out.println("\nRecargar energia...");
+                System.out.println("Indique cuantas veces quiere entrenar: "); recarga = in.nextInt();
                 for(int i=0;i<recarga;i++){
                     e1.recargarEnergia(10);
                     e1.entrenar();
